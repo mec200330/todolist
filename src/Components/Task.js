@@ -11,7 +11,7 @@ export default function Task (props)  {
             <Label color="teal" ribbon="left">{categoryTask}</Label>
         )}
         <Header as="h3" className="header-task">{taskName}</Header>
-        <Header as="h5">{idTask}</Header>
+        {/* <Header as="h5">{idTask}</Header> */}
         <Grid center columns={2}>
          <Grid.Column>
          <Button color="red" onClick={()=> deleteTask(idTask)}>

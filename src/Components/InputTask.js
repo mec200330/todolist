@@ -4,7 +4,7 @@ import {v4 as uuidv4} from 'uuid'
 
 const options =[
 {key: "deporte", text:"Deporte", value:"Deporte"},
-{key: "casa", text:"Casa", value:"casa"},
+{key: "casa", text:"Casa", value:"Casa"},
 {key: "oficina", text:"Oficina", value:"Oficina"},
 {key: "otra", text:"Otra", value:"Otra"}
 ]
